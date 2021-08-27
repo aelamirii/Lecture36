@@ -15,12 +15,12 @@ function RoutesConfig( $stateProvider, $urlRouterProvider) {
   $stateProvider
   .state('tab1', {
     url: '/tab1',
-    template: '<div> This is Tab1 </div>'
+    templateUrl: 'SRC4/tab1.html'
   })
 
   .state('tab2', {
     url: '/tab2',
-    template: '<div> This is Tab2 </div>'
+    templateUrl: 'SRC4/tab2.html'
   })
 
 }
