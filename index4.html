@@ -8,25 +8,20 @@
     <script src = "Lib/angular.min.js"></script>
     <script src = "Lib/angular-ui-router.min.js"></script>
 
-    <script src = "SRC2/app2.js"></script>
+    <script src = "SRC3/app3.js" ></script>
 
-    <title> Introduction to URL-Router </title>
+    <title> Intorduction to URL-Router </title>
   </head>
   <body>
 
-    <h1> Introduction to URL-Router </h1>
+    <h1>  Intorduction to URL-Router  </h1>
 
     <div class="tabs">
+      <a ui-sref = "tab1" ui-sref-active = "ActiveTab" > Tab 1</a>
 
-      <a ui-sref = "tab1" ui-sref-active = "ActiveTab" > Tab 1 </a>
-
-      <a ui-sref = "tab2" ui-sref-active = "ActiveTab" > Tab 2 </a>
+      <a ui-sref = "tab2" ui-sref-active = "ActiveTab" > Tab 2</a>
 
     </div>
-
-
-
-    <!-- <button ui-sref = "tab1"> Tab 1</button> -->
 
     <ui-view></ui-view>
 

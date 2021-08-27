@@ -8,9 +8,9 @@
     <script src = "Lib/angular.min.js"></script>
     <script src = "Lib/angular-ui-router.min.js"></script>
 
-    <script src = "SRC2/app2.js"></script>
+    <script src = "SRC4/app4.js"></script>
 
-    <title> Introduction to URL-Router </title>
+    <title> Introduction to URL-Router</title>
   </head>
   <body>
 
@@ -18,19 +18,15 @@
 
     <div class="tabs">
 
-      <a ui-sref = "tab1" ui-sref-active = "ActiveTab" > Tab 1 </a>
+      <a ui-sref = "tab1" ui-sref-active = "ActiveTab"> Tab 1 </a>
 
-      <a ui-sref = "tab2" ui-sref-active = "ActiveTab" > Tab 2 </a>
+      <a ui-sref = "tab2" ui-sref-active = "ActiveTab"> Tab 2 </a>
+
+      <!-- <button ui-sref = "tab1" > Tab 1 </button> -->
 
     </div>
 
-
-
-    <!-- <button ui-sref = "tab1"> Tab 1</button> -->
-
     <ui-view></ui-view>
-
-
 
   </body>
 </html>
